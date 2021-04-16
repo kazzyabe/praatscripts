@@ -31,6 +31,6 @@ for p in participants:
         temp.plot(x="time", y="f0")
 
         # saving plot
-        f_name = "plots/" + name_p + "/" + l
+        f_name = "Participants/plots/" + name_p + "/" + l
         plt.savefig(f_name)
 
